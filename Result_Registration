@@ -1,0 +1,11 @@
+  @model Using_Data_Entities_and_Wizards.Models.Message
+@{
+    ViewBag.Title = "Result";
+}
+
+<h2>Result</h2>
+
+<p>
+@Html.DisplayFor(Model=>model.MessageText)
+</p>
+
